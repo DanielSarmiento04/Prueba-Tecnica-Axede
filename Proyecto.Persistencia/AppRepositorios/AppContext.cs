@@ -9,7 +9,7 @@ namespace Proyecto.Persistencia
     public DbSet<Hotel>? Hoteles {get;set;}
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder){
             if(!optionsBuilder.IsConfigured){
-                optionsBuilder.UseSqlServer("El url para Sql Server");
+                optionsBuilder.UseSqlServer("Data Source = (local db)\\MSSQLLocalDB; Initial Catalog = Proyecto");
             }
         }
     }

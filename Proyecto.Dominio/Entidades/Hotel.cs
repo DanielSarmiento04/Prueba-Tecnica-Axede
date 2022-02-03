@@ -7,7 +7,7 @@ namespace Proyecto.Dominio{
         public int Capacidad {get;set;}
         public string? Estado {get;set;}
         public string? Ciudad {get;set;}
-        public int precio {get;set;}
+        public int precio {get;set;}  
     }
 
 }
