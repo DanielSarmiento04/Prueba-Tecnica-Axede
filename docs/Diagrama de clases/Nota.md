@@ -1,0 +1,1 @@
+En Creador de Alojamiento se establece por default disponible luego se puede cambiar indicando las fechas de inicio y finalizacion de la reserva

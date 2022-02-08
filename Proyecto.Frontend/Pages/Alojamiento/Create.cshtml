@@ -1,0 +1,18 @@
+@page
+@model Proyecto.Frontend.Pages.FormAlojamientoModel
+@{
+}
+<div class="text-center">
+    <form method=”POST”>
+        <label for="nombre" class="form-label">Capacidad:</label>
+        <input type="number" class="form-control" id="Capacidad" name="Capacidad" placeholder="Capacidad" required>
+        <label for="tipoAlojamiento" class="form-label">Tipo Alojamiento:</label>  
+        <input type="text" class="form-control" id="tipoAlojamiento" name="tipoAlojamiento" placeholder="Tipo Alojamiento (Vipo-Standard)">
+        <label for="precio" class="form-label">Precio:</label>  
+        <input type="number" class="form-control" id="tipoAlojamiento" name="tipoAlojamiento" placeholder="COP">
+        <label for="Ciudad" class="form-label">Ciudad:</label>  
+        <input type="text" class="form-control" id="Ciudad" name="Ciudad" placeholder="Ciudad">      
+        <hr>
+        <button type="submit" class="btn btn-success">Enviar</button>
+    </form>
+</div>

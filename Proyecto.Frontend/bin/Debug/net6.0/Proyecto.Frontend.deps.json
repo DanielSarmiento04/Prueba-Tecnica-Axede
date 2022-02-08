@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v6.0": {
       "Proyecto.Frontend/1.0.0": {
         "dependencies": {
+          "Proyecto.Dominio": "1.0.0",
           "Proyecto.Persistencia": "1.0.0"
         },
         "runtime": {
