@@ -14,7 +14,7 @@ namespace Proyecto.Persistencia.AppRepositorios
         {
             Hoteles= new List<Hotel>()  //Empezare creandolos por default para hacer pruebas
             {
-                new Hotel{id =1, Capacidad = 8, Estado = "Disponible",Ciudad = "Barranquilla",Alojamientos= null}
+                // new Hotel{id =1, Capacidad = 8, Estado = "Disponible",Ciudad = "Barranquilla",Alojamientos= null}
                 // new Hotel{id =2, Capacidad = 16, Estado = "Ocupado",Ciudad = "Cali",Precio = 900000}
 
             };

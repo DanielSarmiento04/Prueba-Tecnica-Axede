@@ -7,25 +7,20 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Proyecto.Persistencia.AppRepositorios;
 using Proyecto.Dominio;
 
-
 namespace Proyecto.Frontend.Pages
 {
-    
-    public class ListAlojamientosModel : PageModel
+    public class ListAlojamientoModel : PageModel
     {
         private readonly RepositorioAlojamiento repositorioAlojamiento;
-        // public IEnumerable<Alojamiento> Alojamientos {get;set;}
+        // public IEnumerable<Alojamiento> alojamientos {get;set;}
 
-        public ListAlojamientosModel(RepositorioAlojamiento repositorioAlojamiento)
+        public ListAlojamientoModel(RepositorioAlojamiento repositorioAlojamiento)
         {
-            
             this.repositorioAlojamiento = repositorioAlojamiento;
         }
         public void OnGet()
         {
-            
-
-            // Alojamientos = repositorioAlojamiento.GetAll();
+            // alojamientos = repositorioAlojamiento.GetAll();
         }
     }
 }

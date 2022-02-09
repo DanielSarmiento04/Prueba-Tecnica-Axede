@@ -21,7 +21,7 @@ namespace Proyecto.Persistencia.AppRepositorios
         {
             return Alojamientos;
         }
-        public  Alojamiento GetAlojamientoWithId(int id){
+        public Alojamiento GetAlojamientoWithId(int id){
             return Alojamientos.SingleOrDefault(b => b.id == id);
         }
     }
