@@ -1,5 +1,7 @@
 @page
+@model Proyecto.Frontend.Pages.ListAlojamientosModel
 @{
+
 }
 <table class="table table-hover">
     <thead>
@@ -10,24 +12,24 @@
         <th scope="col">Capacidad</th>
         </tr>
     </thead>
-    <tbody>
+    
+    @* @foreach (var alojamiento in Model.Alojamientos)
+    {
         <tr>
-            <th scope="row">1</th>
-            <td>Cartagena</td>
-            <td>Nombre 1</td>
-            <td>4 Personas</td>
+        <td>@alojamiento.id</td>
+        <td>@alojamiento.Capacidad</td>
+        <td>@alojamiento.Estado</td>
+        <td>@alojamiento.Ciudad</td>
+        <td>@alojamiento.Precio</td>
+        <td>@alojamiento.Tipo</td>
+        <td>
+        <a class="btn btn-info" asp-page="./Details"
+        asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
+        <a class="btn btn-info" asp-page="./Edit"
+        asp-route-busId="@bus.id">Editar</a>
+        <a class="btn btn-danger" href="">Eliminar</a>
+        </td>
         </tr>
-        <tr>
-            <th scope="row">2</th>
-            <td>Cartagena</td>
-            <td>Nombre 2</td>
-            <td>4 Personas</td>
-        </tr>
-        <tr>
-            <th scope="row">3</th>
-            <td>Cartagena</td>
-            <td>Nombre 3</td>
-            <td>5 Personas</td>
-        </tr>
-    </tbody>
+    } *@
+  
 </table>

@@ -9,7 +9,7 @@ namespace Proyecto.Persistencia.AppRepositorios
     public class RepositorioHotel
     {
         List<Hotel> Hoteles;
-        
+        // readonly List<Alojamiento> Alojamientos = RepositorioAlojamiento.GetAll();
         public RepositorioHotel()
         {
             Hoteles= new List<Hotel>()  //Empezare creandolos por default para hacer pruebas

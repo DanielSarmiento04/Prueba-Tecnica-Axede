@@ -9,8 +9,8 @@ namespace Proyecto.Dominio{
         public string Ciudad {get;set;}
         public int Precio {get;set;}  
         public string Tipo {get;set;}   //Vip -Standard
-        public string? FechaCierre { get; set; } //Establecer cuando va estar hospedado
-        public string? FechaInicio { get; set; } 
+        public string FechaCierre { get; set; } //Establecer cuando va estar hospedado
+        public string FechaInicio { get; set; } 
 
     }
 
