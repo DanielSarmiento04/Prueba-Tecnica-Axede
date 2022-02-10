@@ -1,3 +1,4 @@
+C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.csproj.AssemblyReference.cache
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.AssemblyInfoInputs.cache
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.AssemblyInfo.cs
@@ -5,7 +6,6 @@ C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.RazorAssemblyInfo.cache
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.RazorAssemblyInfo.cs
-C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\obj\Debug\net6.0\Proyecto.Frontend.csproj.AssemblyReference.cache
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\bin\Debug\net6.0\appsettings.Development.json
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\bin\Debug\net6.0\appsettings.json
 C:\Users\Daniel\Desktop\Proyecto.App\Proyecto.Frontend\bin\Debug\net6.0\Proyecto.Frontend.staticwebassets.runtime.json

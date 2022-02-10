@@ -7,12 +7,13 @@ using Microsoft.AspNetCore.Mvc.RazorPages;
 using Proyecto.Persistencia.AppRepositorios;
 using Proyecto.Dominio;
 
+
 namespace Proyecto.Frontend.Pages
 {
     public class ListAlojamientoModel : PageModel
     {
         private readonly RepositorioAlojamiento repositorioAlojamiento;
-        // public IEnumerable<Alojamiento> alojamientos {get;set;}
+        public IEnumerable < Proyecto.Dominio.Alojamiento> Alojamientos {get;set;}
 
         public ListAlojamientoModel(RepositorioAlojamiento repositorioAlojamiento)
         {
@@ -20,7 +21,7 @@ namespace Proyecto.Frontend.Pages
         }
         public void OnGet()
         {
-            // alojamientos = repositorioAlojamiento.GetAll();
+            Alojamientos = repositorioAlojamiento.GetAll();
         }
     }
 }

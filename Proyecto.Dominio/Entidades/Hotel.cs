@@ -8,7 +8,7 @@ namespace Proyecto.Dominio{
         public string Estado {get;set;}
         public string Ciudad {get;set;}
         public List<Alojamiento> Alojamientos {get;set;}
-        
+
     }
 
 }

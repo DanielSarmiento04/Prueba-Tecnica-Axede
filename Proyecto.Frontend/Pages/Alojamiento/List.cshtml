@@ -10,10 +10,13 @@
         <th scope="col">Ciudad</th>
         <th scope="col">Nombre</th>
         <th scope="col">Capacidad</th>
+        <th scope="col">Precio</th>
+        <th scope="col">Tipo</th>
+        <th scope="col">Opciones</th>
         </tr>
     </thead>
     
-    @* @foreach (var alojamiento in Model.Alojamientos)
+    @foreach (var alojamiento in Model.Alojamientos)
     {
         <tr>
         <td>@alojamiento.id</td>
@@ -23,13 +26,11 @@
         <td>@alojamiento.Precio</td>
         <td>@alojamiento.Tipo</td>
         <td>
-        <a class="btn btn-info" asp-page="./Details"
-        asp-route-busId="@bus.id"><i class="fas fa-adjust"></i>Ver</a>
-        <a class="btn btn-info" asp-page="./Edit"
-        asp-route-busId="@bus.id">Editar</a>
+        <a class="btn btn-info" asp-page="./Details"asp-route-alojamientoId="@alojamiento.id"><i class="fas fa-adjust"></i>Ver</a>
+        <a class="btn btn-info" asp-page="./Edit" asp-route-alojamientoId="@alojamiento.id">Editar</a>
         <a class="btn btn-danger" href="">Eliminar</a>
         </td>
         </tr>
-    } *@
+    }
   
 </table>
