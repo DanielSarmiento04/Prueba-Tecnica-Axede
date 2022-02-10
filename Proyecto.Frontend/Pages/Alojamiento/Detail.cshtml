@@ -1,0 +1,13 @@
+@page
+@model Proyecto.Frontend.Pages.DetailAlojamientoModel
+@{
+var Alojamiento = Model.Alojamiento;
+}
+<ul class="list-group list-group-flush">
+    <li class="list-group-item"> <b>id: </b> @Alojamiento.id</li>
+    <li class="list-group-item"> <b>Capacidad: </b> @Alojamiento.Capacidad</li>
+    <li class="list-group-item"> <b>Estado: </b> @Alojamiento.Estado</li>
+    <li class="list-group-item"><b>Ciudad: </b> @Alojamiento.Ciudad</li>
+    <li class="list-group-item"><b>Precio: </b> @Alojamiento.Precio</li>
+    <li class="list-group-item"><b>Tipo: </b> @Alojamiento.Tipo</li>
+</ul>

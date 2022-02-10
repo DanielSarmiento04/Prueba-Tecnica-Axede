@@ -13,7 +13,7 @@ namespace Proyecto.Frontend.Pages
     public class ListHotelModel : PageModel
     {
         private readonly RepositorioHotel repositorioHotel;
-        // public IEnumerable <Hotel> Hoteles {get;set;}
+        public IEnumerable < Proyecto.Dominio.Hotel> Hoteles {get;set;}
         public ListHotelModel(RepositorioHotel repositorioHotel)
         {
             this.repositorioHotel = repositorioHotel;
@@ -21,7 +21,7 @@ namespace Proyecto.Frontend.Pages
         }
         public void OnGet()
         {
-            // Hoteles = repositorioHotel.GetAll();
+            Hoteles = repositorioHotel.GetAll();
         }
     }
 }
